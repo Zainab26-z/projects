@@ -1,0 +1,59 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+.container{
+    background-color: rgb(216, 236, 179);
+    min-height: 150vh;
+    border: 5px solid #586808;
+    text-align: center; 
+    padding-top: 200px;
+    
+   
+    
+}
+.good1{
+    display: flex;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: end;
+    align-items: flex-end;
+}
+
+.container img{
+    margin-left: 400px;
+    
+   
+    
+}
+.container h1{
+margin-left: 100px;
+font-size: 40px;
+
+
+
+}
+.container h4{
+    margin-left: 100px;
+    font-size: 20px;
+    
+    }
+
+.about_section h2{
+    margin-right: 600px;
+    
+}
+.about_section p{
+    margin-left: 370px;
+    margin-right: 370px;
+    text-align: justify;
+}
+footer{
+    margin-left: 480px;
+}
+
+
+   
