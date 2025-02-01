@@ -1,0 +1,75 @@
+*{
+    /* this is really important i mean for spacing it impact on the whole page so do it */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* this is for the bg color, border */
+    background-color: rgb(200, 200, 243);
+    min-height: 100vh;
+    border: 10px solid #040b35;
+}
+.content{
+    /* ye use hota ha content ko mid may lainay k  liay aisy ap notivc kro is sy pehly content mid may nai hoga */
+    max-width: 900px;
+    margin: 0 auto;
+}
+.imgcontainer{
+    /* idher border ko oval krnay k liay 50% radius rakha so it doest effet after that we also include overflow which must b hidden */
+    border-radius: 60%;
+    overflow: hidden;
+    
+}
+.topsection{
+    /* top section may margin 100px dia ha pic plus context nechy aya ha, display flex mean aik line may lanay k liay, or justify content mean ha space lana pic may plus text may */
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* ab text ko pic k pas lainay k liay we use align item in flex-end */
+    align-items: flex-end;
+}
+.topsection h1{
+    /* font size is to seem bigger and font weight for the bold */
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(2, 2, 27);
+    /* text transform for capialization and small */
+    text-transform: capitalize;
+    text-shadow: 1px 1px 11px #6c74b9;
+
+}
+.topsection h4{
+    /* idhr date ko end may lay jana tha text align end */
+text-align: end;
+font-size: 30px;
+}
+.aboutsection{
+    margin-top: 50px;
+
+}
+
+.aboutsection p{
+    line-height: 20px;
+    text-align: justify;
+}
+.aboutsection h2{
+   font-size: 30px; 
+   margin-bottom: 20px;
+   /* letter ki spacing k liay line height or letter spacing use ho ga */
+}
+.biography h3{
+    margin-top: 20px;
+    line-height: 10px;
+    
+}
+.biography ul{
+    margin-top: 20px;
+    line-height: 30px;
+    margin-left: 25px;
+}
+footer{
+    margin: 20px 0;
+    text-align: end;
+}
